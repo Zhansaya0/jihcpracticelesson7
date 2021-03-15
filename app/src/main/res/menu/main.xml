@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/settings_menu"
+        android:title="Item"
+        android:icon="@drawable/ic_settings"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/exit_menu"
+        android:title="Item"
+        android:icon="@drawable/ic_exit_to_app"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/delete_menu"
+        android:title="Delete" />
+    <item
+        android:id="@+id/update_menu"
+        android:title="Update" />
+</menu>
